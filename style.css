@@ -135,6 +135,32 @@ li span {
   animation: complete 4s infinite;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #000000;
+  transform: scale(1.2);
+}
+
 @keyframes complete {
   0% {
     opacity: 0;
